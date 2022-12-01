@@ -1,3 +1,7 @@
-# from django.contrib import admin
+from django.contrib import admin
 
-# Register your models here.
+from .models import Chore, User
+
+
+admin.site.register(Chore)
+admin.site.register(User)

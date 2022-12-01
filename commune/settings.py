@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'commune_app.apps.CommuneAppConfig',
 ]
 
+AUTH_USER_MODEL = 'commune_app.User'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
